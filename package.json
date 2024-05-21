@@ -1,0 +1,20 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "This is just to keep important personal files and documents",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deamann/personal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deamann/personal/issues"
+  },
+  "homepage": "https://github.com/Deamann/personal#readme"
+}
