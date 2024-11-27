@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/Deamann/personal#readme",
   "dependencies": {
+<<<<<<< HEAD
     "body-parser": "^1.20.3",
     "express": "^4.21.1"
+=======
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+>>>>>>> 79781b6533b724ade144eff701483f3e7bef9cb9
   }
 }
