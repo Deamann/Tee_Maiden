@@ -1,0 +1,17 @@
+# create-vm.yml
+- name: Create a VM using KVM
+  hosts: localhost
+  tasks:
+    - name: Create a virtual machine
+      virt:
+        name: web-vm
+        state: running
+        memory: 2048
+        vcpus: 2
+        disk:
+          - size: 20
+            path: /var/lib/libvirt/images/web-vm.qcow2
+        network:
+          - name: default
+        os_variant: ubuntu20.04
+        boot: hd
